@@ -1,5 +1,5 @@
 # chatbot1-3
-def main():
+def Ricardo_part():
     print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
 
     computerfavcereal== "Honey nut bolts"
@@ -10,6 +10,6 @@ def main():
     print('What?!?!?!?!:  ' + name + '...That is my name!!!, I will let you in on a little secrect... my favorite cereal is:')
     print (computerfavcereal)
 
-main()
+Ricardo_part():
+
 def Brando_part():
-    print 
