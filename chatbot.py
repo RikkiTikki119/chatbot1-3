@@ -16,3 +16,5 @@ def cerealkiller():
 
 cerealkiller()
 input("\n\nPress enter to exit")
+
+def tfunct():
