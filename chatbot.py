@@ -13,3 +13,4 @@ def Ricardo_part():
 Ricardo_part():
 
 def Brando_part():
+    print ("brandon is a idiot")
