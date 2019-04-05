@@ -10,9 +10,6 @@ def main():
     favcereal = input("What is your favorite cereal?: ")
     print(favcereal + '...is a very nice cereal choice. So...what is your name ol sport?')
 
-
-
-    name=input()
 =======
 
     name=input("What is your name? ")
