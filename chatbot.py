@@ -11,7 +11,12 @@ def main():
     print(favcereal + '...is a very nice cereal choice. So...what is your name ol sport?')
 
 
+
     name=input()
+=======
+
+    name=input("What is your name? ")
+
     print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
 
 main()
