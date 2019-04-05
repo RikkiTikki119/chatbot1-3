@@ -1,5 +1,5 @@
 # chatbot1-3
-def main():
+def cerealkiller():
 
     print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
 
@@ -14,5 +14,5 @@ def main():
     name=input()
     print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
 
-main()
+cerealkiller()
 input("\n\nPress enter to exit")
