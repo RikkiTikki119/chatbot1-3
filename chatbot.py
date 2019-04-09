@@ -14,15 +14,13 @@ def check_for_greeting(sentence):
         return(random.choice(GREETINGS))
 
 def mornings():
-#brandon______
-print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
     import random
-    word=input("Whats your favorite cereal?:")
-    KEYWORDS = (word)
-    GREETINGS = ["Really?", "That is good...", "Yummy!", "I cant even eat cereal or else my systems will fail."]
+    words=input("Whats your favorite cereal?:")
+    bfast = (words)
+    repo = ["Really?", "That is good...", "Yummy!", "I cant even eat cereal or else my systems will fail."]
 
-    if word.lower() in KEYWORDS:
-        return(random.choice(GREETINGS))
+    if words.lower() in bfast:
+        return(random.choice(repo))
 
 mornings()
 #___________
