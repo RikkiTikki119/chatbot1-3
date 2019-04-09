@@ -3,7 +3,7 @@ def morning():
 
     print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
 
-
+#wow 
 
     computerfavcereal= "Honey nut bolts"
 
@@ -16,6 +16,6 @@ def morning():
 
     print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
 
-    
+
 morning()
 input("\n\nPress enter to exit")
