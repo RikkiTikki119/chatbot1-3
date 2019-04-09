@@ -4,6 +4,7 @@
 
 
 def check_for_greeting(sentence):
+#ricardo______
     import random
     word=input("You greeting:")
     KEYWORDS = ("hello", "hi", "greetings", "yo", "what's up",)
@@ -12,35 +13,17 @@ def check_for_greeting(sentence):
     if word.lower() in KEYWORDS:
         return(random.choice(GREETINGS))
 
-
 def mornings():
+#brandon______
+print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
+    import random
+    word=input("Whats your favorite cereal?:")
+    KEYWORDS = (word)
+    GREETINGS = ["Really?", "That is good...", "Yummy!", "I cant even eat cereal or else my systems will fail."]
 
-
-    print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
-
-#wow
-
-
-    computerfavcereal= "Honey nut bolts"
-
-    favcereal = input("What is your favorite cereal?: ")
-    print(favcereal + '...is a very nice cereal choice. So...what is your name ol sport?')
-
-        name=input()
-    print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
+    if word.lower() in KEYWORDS:
+        return(random.choice(GREETINGS))
 
 mornings()
-
-
-
-    name=input("What is your name? ")
-
-    print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
-#BrandonSerros
-
-
-
-morning()
-
-
+#___________
 input("\n\nPress enter to exit")
