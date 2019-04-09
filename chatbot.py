@@ -1,5 +1,5 @@
 # chatbot1-3
-def cerealkiller():
+def mornings():
 
     print('Hello this is your computer speaking...we are wondering what our master eats for nutrients?')
 
@@ -12,7 +12,7 @@ def cerealkiller():
         name=input()
     print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
 
-cerealkiller()
+mornings()
 input("\n\nPress enter to exit")
 
 def tfunct():
