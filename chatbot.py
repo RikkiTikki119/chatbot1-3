@@ -23,5 +23,5 @@ def mornings():
         return(random.choice(repo))
 
 mornings()
-#___________
+
 input("\n\nPress enter to exit")
