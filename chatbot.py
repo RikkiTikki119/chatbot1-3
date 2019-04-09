@@ -16,5 +16,6 @@ def morning():
 
     print('What?!?!?!?!:  ' + name + ' That is my name!!!, Want to know something funny?...my favorite cereal is:' ,computerfavcereal )
 
+    
 morning()
 input("\n\nPress enter to exit")
