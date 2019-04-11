@@ -34,3 +34,9 @@ mornings()
 input("\n\nPress enter to exit")
 
 def tfunct():
+    word=input("You Goodbye:")
+KEYWORDS = ("bye bye", "bye")
+ByeWords = ["Have a good day!, infidel", "Powering down", "Brandon did no work", "HaveANiceTime"]
+
+if word.lower() in KEYWORDS:
+    print(random.choice(Byewords))
