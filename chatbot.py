@@ -1,8 +1,13 @@
+
 # chatbot1-3
 
 
 import random
+
+
+
 def check_for_greeting(sentence):
+#ricardo______
     import random
     word=input("You greeting:")
     KEYWORDS = ("hello", "hi", "greetings", "yo", "what's up",)
@@ -11,13 +16,7 @@ def check_for_greeting(sentence):
     if word.lower() in KEYWORDS:
         return(random.choice(GREETINGS))
 
-word=input("You greeting:")
-KEYWORDS = ("hello", "hi", "greetings", "yo", "what's up",)
-GREETINGS = ["hello ol' sport", "hey", "*hand shake*", "hey, did you receive my letter?"]
-
-if word.lower() in KEYWORDS:
-    print(random.choice(GREETINGS))
-
+check_for_greeting()
 
 def mornings():
     def mornings():
@@ -31,12 +30,14 @@ def mornings():
 mornings()
 
 
-input("\n\nPress enter to exit")
-
 def tfunct():
     word=input("You Goodbye:")
 KEYWORDS = ("bye bye", "bye")
-ByeWords = ["Have a good day!, infidel", "Powering down", "Brandon did no work", "HaveANiceTime"]
+ByeWords = ["Have a good day!", "Powering down", "HaveANiceTime"]
 
 if word.lower() in KEYWORDS:
     print(random.choice(Byewords))
+    
+tfunct()
+
+input("\n\nPress enter to exit")
