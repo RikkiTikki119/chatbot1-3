@@ -1,3 +1,4 @@
+
 def check_for_greeting(sentence):
 #ricardo______
     import random
@@ -8,6 +9,10 @@ def check_for_greeting(sentence):
     if word.lower() in KEYWORDS:
         return(random.choice(GREETINGS))
 
+# chatbot1-3
+
+
+
 def mornings():
     import random
     words=input("Whats your favorite cereal?:")
@@ -17,6 +22,6 @@ def mornings():
     if words.lower() in bfast:
         return(random.choice(respo))
 
+
 mornings()
 
-input("\n\nPress enter to exit")
