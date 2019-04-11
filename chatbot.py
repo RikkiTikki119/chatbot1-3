@@ -12,10 +12,10 @@ def mornings():
     import random
     words=input("Whats your favorite cereal?:")
     bfast = (words)
-    repo = ["Really?", "That is good...", "Yummy!", "I cant even eat cereal or else my systems will fail."]
+    respo = ["Really?", "That is good...", "Yummy!", "I cant even eat cereal or else my systems will fail."]
 
     if words.lower() in bfast:
-        return(random.choice(repo))
+        return(random.choice(respo))
 
 mornings()
 
